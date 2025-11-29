@@ -267,7 +267,7 @@ export default function HomePage() {
   useKeyboardInput(buttonLayout, handleButtonClick);
 
   return (
-    <div className="flex flex-col h-full">
+    <div className="flex flex-col h-full mb-12">
       {/* Mode Toggle and Angle Unit Selector */}
       <div className="flex justify-between items-center mb-4">
         <h1 className="text-2xl font-bold">
@@ -295,7 +295,7 @@ export default function HomePage() {
         </div>
       </div>
 
-      <div className="flex flex-col flex-1 bg-card rounded-lg shadow-lg overflow-hidden relative">
+      <div className="flex flex-col flex-1 bg-card rounded-lg shadow-lg overflow-hidden relative mb-4">
         {/* Loading overlay */}
         {isLoading && (
           <div 
