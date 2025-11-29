@@ -16,7 +16,7 @@ export function HistoryDrawer({ history, onClearHistory, onSelectHistory }: Hist
       drag="y"
       dragConstraints={{ top: 0, bottom: 340 }}
       dragElastic={0.1}
-      className="fixed bottom-0 left-0 right-0 h-[400px] bg-card border-t border-border rounded-t-2xl p-4 shadow-lg max-w-md mx-auto cursor-grab"
+      className="fixed bottom-0 left-0 right-0 h-[370px] bg-card border-t border-border rounded-t-2xl p-4 shadow-lg max-w-md mx-auto cursor-grab"
       style={{ y: 340 }}
       whileTap={{ cursor: "grabbing" }}
       dragTransition={{ bounceStiffness: 600, bounceDamping: 20 }}
